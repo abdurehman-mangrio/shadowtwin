@@ -1,0 +1,8 @@
+include README.md
+include requirements.txt
+include install.sh
+recursive-include core *.py
+recursive-include ble *.py
+recursive-include portals *.html
+recursive-include logs *
+recursive-include assets *

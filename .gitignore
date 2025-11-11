@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+shadowtwin-env/
+venv/
+ENV/
+env/
+
+# Logs
+logs/*.log
+logs/sessions/*
+logs/credentials/*
+logs/packets/*
+logs/intelligence/*
+!logs/.gitkeep
+
+# Assets (don't include large files)
+assets/wordlists/*.txt
+!assets/wordlists/.gitkeep
+assets/certificates/*
+!assets/certificates/.gitkeep
+assets/payloads/*
+!assets/payloads/.gitkeep
+
+# Configuration
+config.yaml
+*.key
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
